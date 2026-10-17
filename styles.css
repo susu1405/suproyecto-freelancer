@@ -1,0 +1,28 @@
+/* Hack REM basado en porcentajes */
+html {
+    font-size: 62.5%; /* 62.5% de 16px por defecto es 10px. Por lo tanto, 1rem = 10px */
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3.8rem; /* Equivale a 38px usando el hack */
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 2rem; /* Equivale a 20px */
+    color: #333;
+    display: inline-block;
+    margin-left: 1rem;
+}
